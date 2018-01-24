@@ -1,13 +1,12 @@
 down
 down
-getColor
-setColor = getColor
+var currentColor = getColor
 down
 down
 down
 right
 right
-setColor
+setColor(currentColor)
 right
 right
 up
