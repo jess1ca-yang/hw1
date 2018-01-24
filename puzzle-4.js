@@ -1,22 +1,21 @@
 function repeat(direction, n) {
   var count = 0
-  while (count < n)
+  while (count < n) {
   direction
   count = count + 1
+  }
 }
 
 repeat(down, 4)
 right
-getColor
-setColor = getColor
+var currentColor = getColor
 down
-setColor
+setColor(currentColor)
 repeat(right, 2)
 up
 right
-getColor
-setColor = getColor
+var currentColor = getColor
 down
-setColor
+setColor(currentColor)
 right
 right
