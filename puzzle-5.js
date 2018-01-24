@@ -1,8 +1,9 @@
 function repeat(direction, n) {
   var count = 0
-  while (count < n)
+  while (count < n) {
   direction
   count = count + 1
+  }
 }
 
 repeat(right, 2)
